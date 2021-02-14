@@ -71,17 +71,26 @@ li a {
   font-size: 14px;
 }
 
-.search-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.spacer {
+  height: 150px;
 }
 
-.search-container #logo {
-  margin-top: 100px;
-  margin-bottom: 20px;
-  width: 272px;
-  height: 92px;
+.img {
+  text-align: center;
+}
+
+.search-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.search-container #mySearch {
+  border-radius: 50px;
+  border: 1px solid #ccc;
+  padding: 20px 15px;
+  width: 482px;
+  height: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 #mySignIn {
